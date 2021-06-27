@@ -1,0 +1,63 @@
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+	Reglas necesarias para el registro de un nuevo proyecto
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -*/
+
+#contenedor-registro{
+	margin-top: 5em; /* Lo separa de la barra de navegación */
+}
+
+#contenedor-registro > div > div > div.card-heading {
+	color: white;
+}
+
+
+
+
+
+textarea.input--style-5 {
+        width: 100%;
+        resize: none;
+        line-height: 1.3em;
+        border: none;
+    }
+
+    .form-row.software-box {
+        width: 95%;
+        margin: 2.5%;
+        border: 1px solid #e5e5e5;
+        border-radius: 10px;
+        padding: 15px;
+    }
+
+    #boton-agregar-software {
+        margin: auto;
+        background-color: #009fff;
+        color: white;
+        font-size: 1.3em;
+        padding: 12px 25px;
+        border-radius: 7px;
+        cursor: pointer;
+        transition: background-color .5s ease;
+    }
+
+    #boton-agregar-software:hover {
+        background-color: #37b2fd;
+    }
+
+    .colaborador-card {
+        width: max-content;
+        padding: 7px 15px;
+        background-color: #78ff93;
+        border-radius: 15px;
+        font-size: .8em;
+        margin: 5px 5px 0 0;
+        display: inline-block;
+    }
+
+    .colaborador-card > span {
+        margin-left: 5px;
+        font-weight: bold;
+        color:#9b9b9b;
+        cursor: pointer;
+        text-transform: uppercase;
+    }

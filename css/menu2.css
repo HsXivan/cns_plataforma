@@ -1,0 +1,34 @@
+#CNSMenu2{
+	
+}
+
+.navbar-csn-collapse .nav-item:hover{
+	border-bottom: 2px solid #361170;
+}
+
+.navbar-csn-collapse .nav-item > a{
+	/*font-family: "OpenSansRegular";*/
+	text-transform: uppercase;
+	font-size: 10px;
+	color: white !important;
+	/*margin-top: 15px;*/
+	
+}
+
+.navbar-cns{
+	height: 134px;
+	background-color: #1c0527 !important;
+	background-image: url("../img/fondologocns.png") !important;
+	background-position: left;
+	background-repeat: no-repeat;
+}
+
+.navbar-csn-collapse{
+	/*border: 1px solid red !important;*/
+}
+
+.logoCNS-lg{
+	height: 80px !important; 
+	width: 219px !important;
+	margin-top: 17px !important;
+}
